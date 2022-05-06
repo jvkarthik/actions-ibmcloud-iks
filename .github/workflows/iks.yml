@@ -16,10 +16,10 @@ env:
   IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
   IBM_CLOUD_REGION: eu-de
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
-  REGISTRY_HOSTNAME: eu.icr.io
-  IMAGE_NAME: hello-python2
+  REGISTRY_HOSTNAME: de.icr.io
+  IMAGE_NAME: hello-python
   IKS_CLUSTER: c9glhrff03onjt9mvtpg # name or id of cluster
-  DEPLOYMENT_NAME: hello-python2
+  DEPLOYMENT_NAME: hello-python
   PORT: 9080
 
 jobs:
